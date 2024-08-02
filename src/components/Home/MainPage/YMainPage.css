@@ -1,0 +1,132 @@
+
+.Ycont {
+  position: relative;
+  top: -30px;
+  /* padding-bottom: 75px; */
+  /* height: 120vh; */
+  /* background-repeat: no-repeat; */
+  background-image: url('./panic_bg.png');
+}
+.btn2 img {
+  
+  /* background-color: #ce9c11; */
+  width: 150px; 
+  height: 130px;
+  position: relative;
+  top: -49px;
+}
+.disc {
+  width: 310px;
+  height: 295px;
+  position: relative;
+  top: -20px;
+  left: 20%;
+  margin-top: -120px;
+  cursor: pointer;
+  background-image: url("../../Assets/Btns/disc.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.disc:hover {
+  background-image: url("../../Assets/Btns/Bdisc.png");
+}
+
+.homebtn {
+  font-size: 120px;
+  position: relative;
+    left: 10%;
+    width: 30px;
+    top: 90px;
+    /* font-family: 'Satisfy', cursive; */
+  font-style: italic;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  color: #ce9c11;
+  cursor: pointer;
+  /* border: 1px solid currentColor; */   
+}
+.homebtn:hover {
+  color: black;
+  }
+.Ycont .homenavs {
+  position: relative;
+  top: -230px;
+   margin-bottom: -70px;
+}
+.btn {
+    display: flex;
+    justify-content: space-around;
+
+}
+.btn .panicportal:hover {
+    background-color: black;
+    color: #ce9c11;
+
+}
+
+
+.panicportal {
+    text-decoration: none;
+  color: black;
+  font-weight: bold;
+    border: 1px solid transparent;
+    transition: border 0.3s;
+    padding: 15px 55px;
+    /* height: 14px; */
+    background-color: #ce9c11;
+    border-radius: 80%;
+    /* box-shadow: h-offset v-offset blur spread #f7be22; */
+    /* box-shadow: '12px 12px 15px rgba(0, 0, 0, 0.3)'; */
+    font-weight: bold;
+    white-space: nowrap;
+    position: relative;
+    left: 19%;
+    height: 25px;
+    /* flex: 1; */
+}
+.btn2 {
+    
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+      border: 1px solid transparent;
+      transition: border 0.3s;
+      /* padding: 15px 55px; */
+      /* height: 14px; */
+      /* background-color: #ce9c11; */
+      border-radius: 80%;
+      /* box-shadow: h-offset v-offset blur spread #f7be22; */
+      /* box-shadow: '12px 12px 15px rgba(0, 0, 0, 0.3)'; */
+      font-weight: bold;
+      white-space: nowrap;
+      position: relative;
+      left: 4%;
+}
+/* .btn2 Link img:hover {
+  background-color: #ce9c11;
+} */
+.intro {
+  /* position: absolute; */
+  font-weight: bold;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  top: -150px;
+  /* background-image: url("./panic_bg.png"); */
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.bgImg {
+  position: absolute;
+}
+.intro p {
+  font-size: 25px;
+  width: 85%;
+  word-spacing: 30px;
+}

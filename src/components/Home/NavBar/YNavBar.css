@@ -1,0 +1,154 @@
+/* Navbar.css */
+.ynavbar {
+  /* background-color: #333; */
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.navbar-buttons {
+  display: flex;
+  gap: 20px;
+  /* justify-content: space-between; */
+}
+
+.mkt {
+  width: 260px;
+  height: 175px;
+  position: relative;
+  top: -90px;
+  cursor: pointer;
+  /* margin: 50px; */
+  background-image: url("./mktp.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.mkt:hover {
+  background-image: url("./Black-Marketplace.png");
+}
+.col {
+  width: 260px;
+  height: 175px;
+  position: relative;
+  top: -90px;
+  cursor: pointer;
+  /* margin: 50px; */
+  background-image: url("./Yellow-Collection.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.col:hover {
+  background-image: url("./Black-Collection.png");
+}
+.mint {
+  width: 260px;
+  height: 175px;
+  position: relative;
+  top: -90px;
+  cursor: pointer;
+  /* margin: 50px; */
+  background-image: url("./Yellow-Mint-Now.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.mint:hover {
+  background-image: url("./Black-Mint-Now.png");
+}
+.con {
+  width: 260px;
+  height: 175px;
+  position: relative;
+  top: -90px;
+  cursor: pointer;
+  cursor: pointer;
+  /* margin: 50px; */
+  background-image: url("./Yellow-Connect.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.con:hover {
+  background-image: url("./Black-Connect.png");
+}
+
+.navbar-button {
+  text-decoration: none;
+  color: black;
+  margin: 10px 65px;
+  border: 1px solid transparent;
+  transition: border 0.3s;
+  padding: 9px 15px;
+  /* height: 14px; */
+  background-color: #ce9c11;
+  border-radius: 80%;
+  /* box-shadow: h-offset v-offset blur spread #f7be22; */
+  /* box-shadow: '12px 12px 15px rgba(0, 0, 0, 0.3)'; */
+  font-weight: bold;
+  white-space: nowrap;
+
+}
+
+.navbar-button:hover {
+  background-color: black;
+  color: #ce9c11;
+  border: 1px solid blackZZ;
+
+}
+
+.navbar-button:hover {
+  border: 1px solid white;
+}
+
+.navbar-menu-icon {
+  display: none;
+}
+
+.show {
+  margin-bottom: 104px;
+}
+
+/* .marketplc {
+    background-image: url('mktp.png');
+    width: 30px;
+    height: 40px;
+  } */
+@media (max-width: 768px) {
+  .navbar-buttons {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-buttons.open {
+    display: flex;
+  }
+
+  .navbar-button {
+    width: 100%;
+    text-align: left;
+    padding: 15px 20px;
+  }
+
+  .navbar-button:hover {
+    border: none;
+    background-color: #444;
+  }
+
+  .navbar-menu-icon {
+    display: block;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    position: relative;
+  }
+}

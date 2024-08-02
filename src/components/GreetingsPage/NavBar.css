@@ -1,0 +1,146 @@
+/* Navbar.css */
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 
+  
+  .navbar-buttons {
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-between; */
+  }
+  
+  .navbar-button {
+    text-decoration: none;
+    color: black;
+    margin: 10px 65px;
+    border: 1px solid transparent;
+    transition: border 0.3s;
+    padding: 9px 15px;
+    /* height: 14px; */
+    background-color: #ce9c11;
+    border-radius: 80%;
+    /* box-shadow: h-offset v-offset blur spread #f7be22; */
+    /* box-shadow: '12px 12px 15px rgba(0, 0, 0, 0.3)'; */
+    font-weight: bold;
+    white-space: nowrap;
+    
+  }
+  .navbar-button:hover {
+    background-color: black;
+    color: #ce9c11;
+    border: 1px solid black;
+  
+  }
+  
+  .navbar-button:hover {
+    border: 1px solid white;
+  }
+  
+  .navbar-menu-icon {
+    display: none;
+  }
+  .show {
+    margin-bottom: 104px;
+  }
+  .navbar .navbar-container .navbar-buttons .mkt {
+    width: 260px;
+    height: 175px;
+    position: relative;
+    top: -90px;
+    cursor: pointer;
+    /* margin: 50px; */
+    background-image: url("./Assets/Black-Marketplace.png");
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+  }
+  
+  .navbar .navbar-container .navbar-buttons .mkt:hover {
+    background-image: url("./Assets/Yellow-Marketplace.png");
+  }
+  .navbar .navbar-container .navbar-buttons .col {
+    width: 260px;
+    height: 175px;
+    position: relative;
+    top: -90px;
+    cursor: pointer;
+    /* margin: 50px; */
+    background-image: url("./Assets/Black-Collection.png");
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+  }
+  
+  .navbar .navbar-container .navbar-buttons .col:hover {
+    background-image: url("./Assets/Yellow-Collection.png");
+  }
+  .navbar .navbar-container .navbar-buttons .mint {
+    width: 260px;
+    height: 175px;
+    position: relative;
+    top: -90px;
+    cursor: pointer;
+    /* margin: 50px; */
+    background-image: url("./Assets/Black-Mint-Now.png");
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+  }
+  
+  .navbar .navbar-container .navbar-buttons .mint:hover {
+    background-image: url("./Assets/Yellow-Mint-Now.png");
+  }
+  .navbar .navbar-container .navbar-buttons .con {
+    width: 260px;
+    height: 175px;
+    position: relative;
+    top: -90px;
+    cursor: pointer;
+    cursor: pointer;
+    /* margin: 50px; */
+    background-image: url("./Assets/Black-Connect.png");
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+  }
+  
+  .navbar .navbar-container .navbar-buttons .con:hover {
+    background-image: url("./Assets/Yellow-Connect.png");
+  }
+  @media (max-width: 768px) {
+    .navbar-buttons {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .navbar-buttons.open {
+      display: flex;
+    }
+  
+    .navbar-button {
+      width: 100%;
+      text-align: left;
+      padding: 15px 20px;
+    }
+  
+    .navbar-button:hover {
+      border: none;
+      background-color: #444;
+    }
+  
+    .navbar-menu-icon {
+      display: block;
+      cursor: pointer;
+      color: white;
+      font-size: 24px;
+      position: relative;
+    }
+  }
+  

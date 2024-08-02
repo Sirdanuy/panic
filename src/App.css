@@ -1,0 +1,25 @@
+/* src/App.css */
+@font-face {
+  font-family: 'Anic';
+  src: url('./components/Assets/Fonts/panic.otf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Anic';
+  src: url('./components/Assets/Fonts/panicLight.otf') format('opentype');
+  font-weight: 300;
+}
+
+body {
+  font-family: 'Anic', sans-serif;
+}
+
+/* Example usage */
+.bold-text {
+  font-weight: bold;
+}
+
+.light-text {
+  font-weight: 300;
+}

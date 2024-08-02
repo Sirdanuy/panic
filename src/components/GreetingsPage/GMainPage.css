@@ -1,0 +1,122 @@
+.cont {
+  position: relative;
+  top: -280px;
+  /* height: 90vh; */
+}
+.show  {
+  margin-bottom: 222px;
+}
+.btn2 img {
+  /* background-image: url("../../Greetings/Assets/byhitch.png"); */
+  /* background-color: #ce9c11; */
+  width: 150px; 
+  height: 130px;
+  position: relative;
+  top: -59px;
+}
+
+.Gcont .homenavs .homebtn {
+  font-size: 120px;
+  position: relative;
+    left: 10%;
+    width: 30px;
+    top: 90px;
+    /* font-family: 'Satisfy', cursive; */
+  font-style: italic;
+  text-decoration: none;
+  color: #141414;
+  font-weight: bold;
+  /* color: #ce9c11; */
+  cursor: pointer;
+  /* border: 1px solid currentColor; */   
+}
+
+
+.Gcont .homenavs {
+   margin-bottom: 70px;
+}
+.Gcont .homenavs .btn {
+    display: flex;
+    justify-content: space-around;
+
+}
+.Gcont .homenavs .btn .panicportal {
+    text-decoration: none;
+  color: #ce9c11;
+  font-weight: bold;
+    border: 1px solid transparent;
+    transition: border 0.3s;
+    padding: 15px 55px;
+    /* height: 14px; */
+    background-color: #141414;
+    border-radius: 80%;
+    /* box-shadow: h-offset v-offset blur spread #f7be22; */
+    /* box-shadow: '12px 12px 15px rgba(0, 0, 0, 0.3)'; */
+    font-weight: bold;
+    white-space: nowrap;
+    position: relative;
+    left: 19%;
+    height: 25px;
+    /* flex: 1; */
+}
+
+
+
+.Gcont .homenavs .homebtn:hover {
+  color: #ce9c11;
+}
+.discN {
+  width: 310px;
+  height: 295px;
+  position: relative;
+  top: -20px;
+  left: 20%;
+  margin-top: -120px;
+  cursor: pointer;
+  background-image: url("../Assets/Btns/Bdisc.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.discN:hover {
+  background-image: url("../Assets/Btns/disc.png");
+}
+.Gcont .homenavs .btn2 {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+      border: 1px solid transparent;
+      transition: border 0.3s;
+      /* padding: 15px 55px; */
+      /* height: 14px; */
+      /* background-color: #ce9c11; */
+      border-radius: 80%;
+      /* box-shadow: h-offset v-offset blur spread #f7be22; */
+      /* box-shadow: '12px 12px 15px rgba(0, 0, 0, 0.3)'; */
+      font-weight: bold;
+      white-space: nowrap;
+      position: relative;
+      left: 4%;
+}
+.Gcont .homenavs .intro {
+  /* position: absolute; */
+  font-weight: bold;
+  width: 100%;
+  height: 100vh;
+  
+  /* background-image: url("./panic_bg.png"); */
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+/* .bgImg {
+  position: absolute;
+} */
+.Gcont .homenavs  .intro p {
+  font-size: 25px;
+  width: 85%;
+  word-spacing: 30px;
+}

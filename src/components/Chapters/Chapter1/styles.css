@@ -1,0 +1,15 @@
+.conta1 {
+    background-image: url('../Assets/chpanic.GIF');
+    background-size: contain;
+    /* background-position: center center; */
+    width: 100%;
+    height: 100vh;
+}
+.introP {
+    position: absolute;
+    top: 120px;
+    width: 70%;
+    font-weight: bold;
+    left: 180px;
+    color: #FFD21E;
+}

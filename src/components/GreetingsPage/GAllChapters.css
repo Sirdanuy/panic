@@ -1,0 +1,286 @@
+body {
+  background-color: black;
+}
+.Ycontainer {
+    background-image: url('./Assets/darkpanic_bg.png');
+  }
+.containerF {
+  /* background-image: url('./Assets/darkpanic_bg.png'); */
+    height: 10vh;
+    position: relative;
+    top: -220px;
+  }
+.row-container {
+    position: relative;
+    width: 87%;
+    left: 6.1%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .row-container h3 {
+    margin-left: 15px;
+  }
+  .see-more {
+    position: absolute;
+    top: 65px;
+    left: 75%;
+  }
+  
+  .see-more a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 25px 15px 25px;
+    border-radius: 50%;
+    background-color: #ce9c11;
+  }
+  
+  .items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px; /* Ensures 'See More' link doesn't overlap items */
+  }
+  
+  .item {
+    flex: 1;
+    margin: 0 10px; /* Adjust spacing between items */
+    text-align: center;
+  }
+  
+  .item img {
+    width: 50%;
+    height: auto;
+    max-width: 200px; /* Adjust the size as needed */
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .item h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .btnF {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: -4.5%;
+    width: 83%;
+    top: 70px;
+    padding-bottom: 40px;
+  }
+  .btnFo {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 12.9%;
+    width: 79%;
+    top: 70px;
+    padding-bottom: 40px;
+}
+.panicportalF {
+  text-decoration: none;
+color: black;
+font-weight: bold;
+  border: 1px solid transparent;
+  transition: border 0.3s;
+  padding: 15px 55px;
+  /* height: 14px; */
+  background-color: #ce9c11;
+  border-radius: 80%;
+  /* box-shadow: h-offset v-offset blur spread #f7be22; */
+  /* box-shadow: '12px 12px 15px rgba(0, 0, 0, 0.3)'; */
+  font-weight: bold;
+  white-space: nowrap;
+  position: relative;
+  left: 7%;
+  /* flex: 1; */
+}
+.copywrite {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  /* padding-top: 140px; */
+  height: 40px;
+  font-weight: bold;
+  top: 70px;
+  /* background-image: url('./panic_bg.png'); */
+}
+
+
+.Don {
+  width: 250px;
+  height: 295px;
+  
+  cursor: pointer;
+  background-image: url("./Assets/Black-Contact.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.Don:hover {
+  background-image: url("./Assets/Yellow-Contact.png");
+}
+.QA {
+  width: 250px;
+  height: 295px;
+  
+  cursor: pointer;
+  background-image: url("./Assets/Black-Q&A.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.QA:hover {
+  background-image: url("./Assets/Yellow-Q&A.png ");
+}
+.Abu {
+  width: 250px;
+  height: 295px;
+  
+  cursor: pointer;
+  background-image: url("./Assets/Black-About-us.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.Abu:hover {
+  background-image: url("./Assets/Yellow-About-us.png");
+}
+
+
+
+
+
+
+.pensea {
+  width: 250px;
+  height: 295px;
+  
+  cursor: pointer;
+  background-image: url("./Assets/Black-OpenSea.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.pensea:hover {
+  background-image: url("./Assets/Yellow-Opensea.png");
+}
+.iscord {
+  width: 250px;
+  height: 295px;
+  
+  cursor: pointer;
+  background-image: url("./Assets/Black-Discord.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.iscord:hover {
+  background-image: url("./Assets/Yellow-Discord.png");
+}
+.Xx {
+  width: 250px;
+  height: 295px;
+  
+  cursor: pointer;
+  background-image: url("./Assets/Black-X.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.Xx:hover {
+  background-image: url("./Assets/Yellow-X.png");
+}
+
+
+.Bch1 {
+  width: 310px;
+  height: 295px;
+  position: absolute;
+  top: 50px;
+  margin-top: -120px;
+  cursor: pointer;
+  background-image: url("./Assets/Black-Read-the-story-.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.Bch1:hover {
+  background-image: url("./Assets/Clicked-Chapter1.png");
+}
+.Bch2 {
+  width: 310px;
+  height: 295px;
+  position: absolute;
+  top: 50px;
+  margin-top: -120px;
+  cursor: pointer;
+  background-image: url("./Assets/Black-Read-the-story-.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.Bch2:hover {
+  background-image: url("./Assets/Clicked-Chapter2.png");
+}
+.Bch3 {
+  width: 310px;
+  height: 295px;
+  position: absolute;
+  top: 50px;
+  margin-top: -120px;
+  cursor: pointer;
+  background-image: url("./Assets/Black-Read-the-story-.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.Bch3:hover {
+  background-image: url("./Assets/Clicked-Chapter3.png");
+}
+.Bch4 {
+  width: 310px;
+  height: 295px;
+  position: absolute;
+  top: 50px;
+  margin-top: -120px;
+  cursor: pointer;
+  background-image: url("./Assets/Black-Read-the-story-.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.Bch4:hover {
+  background-image: url("./Assets/Clicked-Chapter4.png");
+}
+.Bch5 {
+  width: 310px;
+  height: 295px;
+  position: absolute;
+  top: 50px;
+  margin-top: -120px;
+  cursor: pointer;
+  background-image: url("./Assets/Black-Read-the-story-.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.Bch5:hover {
+  background-image: url("./Assets/Clicked-Chapter5.png");
+}
+.Bch6 {
+  width: 310px;
+  height: 295px;
+  position: absolute;
+  top: 50px;
+  margin-top: -120px;
+  cursor: pointer;
+  background-image: url("./Assets/Black-Read-the-story-.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.Bch6:hover {
+  background-image: url("./Assets/Clicked-Chapter6.png");
+}

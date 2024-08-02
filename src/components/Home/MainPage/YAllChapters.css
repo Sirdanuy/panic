@@ -1,0 +1,303 @@
+.container {
+  background-image: url('./panic_bg.png');
+  /* background-color: #0D9121; */
+  /* height: 0px; */
+  margin-top: -160px;
+}
+
+.containerF {
+  /* background-image: url('./panic_bg.png'); */
+  /* background-color: pink; */
+  /* height: 10px; */
+  position: relative;
+  margin-top: 170px;
+  /* overflow: hidden; */
+}
+
+
+.row-container {
+  position: relative;
+  width: 87%;
+  left: 6.1%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.row-container h3 {
+  margin-left: 15px;
+}
+
+.see-more {
+  position: absolute;
+  top: 65px;
+  right: 20px;
+}
+
+.see-more a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px 25px 15px 25px;
+  border-radius: 50%;
+  background-color: #ce9c11;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  /* Ensures 'See More' link doesn't overlap items */
+}
+
+.item {
+  flex: 1;
+  margin: 0 10px;
+  /* Adjust spacing between items */
+  text-align: center;
+}
+
+.item img {
+  width: 50%;
+  height: auto;
+  max-width: 200px;
+  /* Adjust the size as needed */
+  display: block;
+  margin: 0 auto;
+}
+
+.item h2 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.containerF  .btnF {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  left: -1.5%;
+  width: 83%;
+  top: 250px;
+  /* padding-bottom: 40px; */
+}
+
+.btnFo {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  left: 12.9%;
+  width: 79%;
+  top: -70px;
+  /* padding-bottom: 40px; */
+  /* overflow: hidden; */
+}
+
+.panicportalF {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border: 1px solid transparent;
+  transition: border 0.3s;
+  padding: 15px 55px;
+  /* height: 14px; */
+  background-color: #ce9c11;
+  border-radius: 80%;
+  /* box-shadow: h-offset v-offset blur spread #f7be22; */
+  /* box-shadow: '12px 12px 15px rgba(0, 0, 0, 0.3)'; */
+  font-weight: bold;
+  white-space: nowrap;
+  position: relative;
+  left: 7%;
+  /* flex: 1; */
+}
+
+.copywrite {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  /* padding-top: 140px; */
+  height: 40px;
+  font-weight: bold;
+  top: 70px;
+  /* background-image: url('./panic_bg.png'); */
+}
+
+
+
+.Don {
+  width: 250px;
+  height: 295px;
+  
+  cursor: pointer;
+  background-image: url("../../Assets/Btns/Yellow-Contact.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.Don:hover {
+  background-image: url("../../Assets/Btns/Black-Contact.png");
+}
+.QA {
+  width: 250px;
+  height: 295px;
+  
+  cursor: pointer;
+  background-image: url("../../Assets/Btns/Yellow-Q&A.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.QA:hover {
+  background-image: url("../../Assets/Btns/Black-Q&A.png ");
+}
+.Abu {
+  width: 250px;
+  height: 295px;
+  
+  cursor: pointer;
+  background-image: url("../../Assets/Btns/Yellow-About-us.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.Abu:hover {
+  background-image: url("../../Assets/Btns/Black-About-us.png");
+}
+
+
+
+
+
+
+.pensea {
+  width: 250px;
+  height: 295px;
+  
+  cursor: pointer;
+  background-image: url("../../Assets/Btns/Yellow-Opensea.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.pensea:hover {
+  background-image: url("../../Assets/Btns/Black-OpenSea.png");
+}
+.iscord {
+  width: 250px;
+  height: 295px;
+  
+  cursor: pointer;
+  background-image: url("../../Assets/Btns/Yellow-Discord.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.iscord:hover {
+  background-image: url("../../Assets/Btns/Black-Discord.png");
+}
+.Xx {
+  width: 250px;
+  height: 295px;
+  
+  cursor: pointer;
+  background-image: url("../../Assets/Btns/Yellow-X.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.Xx:hover {
+  background-image: url("../../Assets/Btns/Black-X.png");
+}
+
+
+.ch1 {
+  width: 310px;
+  height: 295px;
+  position: relative;
+  top: -220px;
+  margin-top: -120px;
+  cursor: pointer;
+  background-image: url("../../Assets/Btns/Yellow-Read-the-story-.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.ch1:hover {
+  background-image: url("../../Assets/Btns/Clicked-Chapter1.png");
+}
+.ch2 {
+  width: 310px;
+  height: 295px;
+  position: relative;
+  top: -220px;
+  margin-top: -120px;
+  cursor: pointer;
+  background-image: url("../../Assets/Btns/Yellow-Read-the-story-.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.ch2:hover {
+  background-image: url("../../Assets/Btns/Clicked-Chapter2.png");
+}
+.ch3 {
+  width: 310px;
+  height: 295px;
+  position: relative;
+  top: -220px;
+  margin-top: -120px;
+  cursor: pointer;
+  background-image: url("../../Assets/Btns/Yellow-Read-the-story-.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.ch3:hover {
+  background-image: url("../../Assets/Btns/Clicked-Chapter3.png");
+}
+.ch4 {
+  width: 310px;
+  height: 295px;
+  position: relative;
+  top: -220px;
+  margin-top: -120px;
+  cursor: pointer;
+  background-image: url("../../Assets/Btns/Yellow-Read-the-story-.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.ch4:hover {
+  background-image: url("../../Assets/Btns/Clicked-Chapter4.png");
+}
+.ch5 {
+  width: 310px;
+  height: 295px;
+  position: relative;
+  top: -220px;
+  margin-top: -120px;
+  cursor: pointer;
+  background-image: url("../../Assets/Btns/Yellow-Read-the-story-.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.ch5:hover {
+  background-image: url("../../Assets/Btns/Clicked-Chapter5.png");
+}
+.ch6 {
+  width: 310px;
+  height: 295px;
+  position: relative;
+  top: -220px;
+  margin-top: -120px;
+  cursor: pointer;
+  background-image: url("../../Assets/Btns/Yellow-Read-the-story-.png");
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.ch6:hover {
+  background-image: url("../../Assets/Btns/Clicked-Chapter6.png");
+}
+
