@@ -19,7 +19,7 @@ function MainPage() {
       <div className="Ycont">
       <div className="homenavs">
       
-      <div className="homebtn">!?</div>
+      <div className="homebtn"></div>
       
         <div className="btn">
           <a href="https://discord.gg" className="disc">

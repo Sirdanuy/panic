@@ -16,7 +16,7 @@ function MainPage() {
     <>
       <div className="Gcont">
       <div className="homenavs">
-      <div className="homebtn">!?</div>
+      <div className="homebtn"></div>
         <div className="btn">
           <a href="https://discord.gg" className="discN">
           </a>

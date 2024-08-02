@@ -15,21 +15,21 @@
   top: -59px;
 }
 
-.Gcont .homenavs .homebtn {
-  font-size: 120px;
+/* .Gcont .homenavs .homebtn {
+  /* /* font-size: 120px;
   position: relative;
     left: 10%;
     width: 30px;
-    top: 90px;
+    top: 90px; */
     /* font-family: 'Satisfy', cursive; */
-  font-style: italic;
+  /* font-style: italic;
   text-decoration: none;
   color: #141414;
-  font-weight: bold;
+  font-weight: bold; */
   /* color: #ce9c11; */
-  cursor: pointer;
-  /* border: 1px solid currentColor; */   
-}
+  /* cursor: pointer; */
+  /* border: 1px solid currentColor; 
+} */
 
 
 .Gcont .homenavs {
@@ -62,9 +62,9 @@
 
 
 
-.Gcont .homenavs .homebtn:hover {
+/* .Gcont .homenavs .homebtn:hover {
   color: #ce9c11;
-}
+} */
 .discN {
   width: 310px;
   height: 295px;
@@ -119,4 +119,21 @@
   font-size: 25px;
   width: 85%;
   word-spacing: 30px;
+}
+
+
+.homebtn{
+  width: 57px;
+  position: relative;
+  height: 73px;
+  top: 3rem;
+  left: 10rem;
+    background-image: url(/src/components/Home/panic\ black.png);
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+}
+
+.homebtn:hover {
+  background-image: url(
+"/src/components/Home/panic\ yellow.png");
 }

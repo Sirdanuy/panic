@@ -32,24 +32,21 @@
   background-image: url("../../Assets/Btns/Bdisc.png");
 }
 
-.homebtn {
-  font-size: 120px;
+.homebtn{
+  width: 57px;
   position: relative;
-    left: 10%;
-    width: 30px;
-    top: 90px;
-    /* font-family: 'Satisfy', cursive; */
-  font-style: italic;
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  color: #ce9c11;
-  cursor: pointer;
-  /* border: 1px solid currentColor; */   
+  height: 73px;
+  top: 3rem;
+  left: 10rem;
+    background-image: url(/src/components/Home/panic\ yellow.png);
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
 }
+
 .homebtn:hover {
-  color: black;
-  }
+  background-image: url(
+"/src/components/Home/panic\ black.png");
+}
 .Ycont .homenavs {
   position: relative;
   top: -230px;
